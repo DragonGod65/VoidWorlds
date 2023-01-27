@@ -1,0 +1,32 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "minecraft:white_terracotta"
+    },
+    "title": "Test Advancement",
+    "description": "A Test Advancement",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "test_advancement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "badlands"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
