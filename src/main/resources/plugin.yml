@@ -1,0 +1,5 @@
+name: VoidWorlds
+version: '${project.version}'
+main: net.dragongod65.void_worlds.Void_worlds
+api-version: 1.19
+authors: [ DragonGod65 ]
