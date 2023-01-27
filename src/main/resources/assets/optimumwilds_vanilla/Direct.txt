@@ -27,6 +27,6 @@ Second Number: Under PluginItemGroup
 8 -
 9 -
 
-Third Number: Item
+Third Number: Item sorted by Order in Manager
 
 
